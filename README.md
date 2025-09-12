@@ -1,4 +1,7 @@
-# 
+# ALL-PET
+Currently, the construction of large-scale foundation models in the field of PET imaging faces two core bottlenecks: first, data scarcity. Affected by privacy and ethical restrictions, as well as the high cost of expert annotations, it is difficult to obtain high-quality annotated PET data, and the original projection data is complex and scarce; second, high demand for computing resources. Most existing medical foundation models rely on hundreds of millions of parameters and multi-GPU clusters, making them difficult to deploy in low-resource scenarios such as primary hospitals. In addition, most models operate in the image domain and discard the physical priors (such as attenuation effects and angle dependence) in the projection domain (sinogram space), resulting in outputs that may lack physical consistency and affect diagnostic reliability.
+
+To address this, the research team proposed ALL-PET — the first PET foundation model that operates in the projection domain, with low resource requirements (24GB memory on a single GPU) and few samples (only 500 sinograms per task). It aims to directly capture physical priors from sinograms, balancing performance, interpretability, and clinical adaptability.
 ![]()
 
 
