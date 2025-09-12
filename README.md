@@ -4,7 +4,8 @@ Currently, the construction of large-scale foundation models in the field of PET
 To address this, the research team proposed ALL-PET — the first PET foundation model that operates in the projection domain, with low resource requirements (24GB memory on a single GPU) and few samples (only 500 sinograms per task). It aims to directly capture physical priors from sinograms, balancing performance, interpretability, and clinical adaptability.
 ![]()
 
-
+## Fig. 1. Overview of the ALL-PET foundation model and traininginference pipeline.
+![](./Fig. 1. Overview of the ALL-PET foundation model and traininginference pipeline..png)  
 
 # Generation of PET Projection Domain
 <table>
