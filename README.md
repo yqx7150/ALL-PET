@@ -5,7 +5,7 @@ To address this, the research team proposed ALL-PET — the first PET foundation
 ![]()
 
 ## Fig. 1. Overview of the ALL-PET foundation model and traininginference pipeline.
-![](./Fig. 1. Overview of the ALL-PET foundation model and traininginference pipeline..png)  
+![](./Fig. 1. Overview of the ALL-PET foundation model and traininginference pipeline.)  
 
 # Generation of PET Projection Domain
 <table>
